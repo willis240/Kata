@@ -14,5 +14,5 @@ TEST_CASE("Add, passed the empty string")
 TEST_CASE("Add, passed 2 nums in string")
 {
 	INFO("Add(\"3,2\") == 5");
-	REQUIRE(Add("3, 2") == 5);
+	REQUIRE(Add("3,2") == 5);
 }
