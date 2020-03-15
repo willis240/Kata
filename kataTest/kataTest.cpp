@@ -5,9 +5,14 @@
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 
-TEST_CASE("Add()")
+TEST_CASE("Add, passed the empty string")
 {
-	INFO("Add("") == 0");
+	INFO("Add(\"\") == 0");
 	REQUIRE(Add("") == 0);
 }
 
+TEST_CASE("Add, passed 2 nums in string")
+{
+	INFO("Add(\"3,2\") == 5");
+	REQUIRE(Add("3, 2") == 5);
+}
