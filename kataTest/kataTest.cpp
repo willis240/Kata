@@ -18,4 +18,7 @@ TEST_CASE("Add, passed 2 nums in string")
 
 	INFO("Add(\"37,82\") == 37 + 82");
 	REQUIRE(Add("37,82") == (37 + 82));
+
+	INFO("Add(\"3094,7821\") == 3094 + 7821");
+	REQUIRE(Add("3094,7821") == (3094 + 7821));
 }
