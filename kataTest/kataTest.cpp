@@ -5,5 +5,8 @@
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 
-
+TEST_CASE("Add")
+{
+	REQUIRE(Add() == 0)
+}
 
